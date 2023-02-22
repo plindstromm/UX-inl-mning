@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #241C15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll{
+    margin-top: 5rem;
+}
+
+main{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    margin-top: 5rem;
+}
+
+.grid-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.grid-img-large{
+    border-radius: 5px;
+    width: 100%;
+    grid-column: 3/ span 2;
+}
