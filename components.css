@@ -50,6 +50,12 @@ header p{
     margin-top: 4rem;
 }
 
+.hamburger{
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    display: none;
+}
+
 .main-frame{
     width: 80vw;
     height: 80vh;
@@ -168,5 +174,24 @@ header p{
     }
     .calendar-container{
         flex-direction: column;
+    }
+    .socials{
+        margin: 4rem 1rem 0 0;
+    }
+}
+
+@media (max-width: 600px){
+    .hamburger{
+        display: block;
+    }
+
+    header a{
+        display: none;
+    }
+    .header-icon{
+        margin-right: auto;
+    }
+    .header-search-text{
+        margin-right: 1rem;
     }
 }

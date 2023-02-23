@@ -40,5 +40,18 @@ body{
     
 }
 
+@media (max-width:500px){
+   .main-frame h1{
+        font-size: 18px;
 
+   }
+   .main-frame h2{
+    font-size: 12px;
+
+   }
+   .main-card p{
+    font-size: 10px;
+    align-self: center;
+   }
+}
 
