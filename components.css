@@ -162,6 +162,22 @@ header p{
         }
 }
 
+@media (max-width: 600px){
+    .hamburger{
+        display: block;
+    }
+
+    header a{
+        display: none;
+    }
+    .header-icon{
+        margin-right: auto;
+    }
+    .header-search-text{
+        margin-right: 1rem;
+    }
+}
+
 @media (max-width:500px){
     .scroll-circle{
         width: 25px;
@@ -180,18 +196,23 @@ header p{
     }
 }
 
-@media (max-width: 600px){
-    .hamburger{
-        display: block;
+@media (max-width: 400px){
+    .header-icon{
+        margin-left: 3rem;
     }
 
-    header a{
-        display: none;
+    .calendar{
+        width: 100px;
+        height: 30px;
     }
-    .header-icon{
-        margin-right: auto;
+    .calendar-img{
+        height: 15px;
+        width: 15px;
     }
-    .header-search-text{
-        margin-right: 1rem;
+
+    .calendar-text{
+        font-size: 8px;
+        margin-right: 2rem;
+        
     }
 }
